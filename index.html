@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\style.css">
+    <script defer src="\script.js"></script>
+    <title>Login and Register</title>
+</head>
+<body>
+    <div class="slideshow">
+        <img src="https://wallpapercg.com/download/god-of-war-ragnarok-valhalla-dlc--18752.jpg" alt="Console Game Background">
+        <img src="https://wallpapers.com/images/hd/mobile-legends-bang-bang-logo-fight-2ia0z1qrfbimzsgi.jpg" alt="Mobile Game Background">
+        <img src="https://wallpaper.forfun.com/fetch/34/34fcf4edbca5e75d4d31967a6b49373e.jpeg" alt="PC Game Background">
+        <img src="https://upload-os-bbs.hoyolab.com/upload/2023/09/20/17138284/20c8724a284c86eabf9b3cc2c6be642e_3754290854408446992.png" alt="Cross-Platform Game Background">
+    </div>
+    <div class="container">
+        <h1 class="title">POPULAR GAMES TO PLAY</h1> <!-- Added title -->
+        <div class="tabs">
+            <div class="tab active" id="login-tab">Login</div>
+            <div class="tab" id="register-tab">Register</div>
+        </div>
+        <div class="form-container active" id="login-form">
+            <form id="loginForm">
+                <label for="login-username">Username</label>
+                <input type="text" id="login-username" name="username" required>
+                <label for="login-password">Password</label>
+                <input type="password" id="login-password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div class="form-container" id="register-form">
+            <form id="registerForm">
+                <label for="register-username">Username</label>
+                <input type="text" id="register-username" name="username" required>
+                <label for="register-email">Email</label>
+                <input type="email" id="register-email" name="email" required>
+                <label for="register-password">Password</label>
+                <input type="password" id="register-password" name="password" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

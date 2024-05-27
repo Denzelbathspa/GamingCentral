@@ -1,2 +1,2 @@
 # denzelgithub.io
-# A Website Project
+# A Website Project For School!
